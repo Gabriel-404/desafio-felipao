@@ -1,4 +1,4 @@
-// # 2️⃣ Calculadora de partidas Rankeadas 
+// # 2️⃣ Calculadora de partidas Ranqueadas 
 // **O Que deve ser utilizado**
 
 // - Variáveis
@@ -10,7 +10,7 @@
 // ## Objetivo:
 
 // Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
-// depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+// depois disso retorne o resultado para uma variável, o saldo de ranqueadas deve ser feito através do cálculo (vitórias - derrotas)
 
 // Se vitórias for menor do que 10 = Ferro
 // Se vitórias for entre 11 e 20 = Bronze
@@ -23,7 +23,7 @@
 // ## Saída
 
 // Ao final deve se exibir uma mensagem, exemplo:
-// "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
+// "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nível}**"
 
 calculateLevel(478, 26)
 
@@ -45,7 +45,7 @@ function calculateLevel(Wins, Lost){  // Parâmetros definidos para a function q
     }  else { // Se vitórias for maior ou igual a 101 = Imortal
         elo = "Imortal"
     }    
-    let retornar = (`Você está no elo ${elo}! Você possui ${Wins} vitórias e ${Lost} derrotas, totalizando ${points} pontos! `)  
+    let retornar = (`Você está no elo ${elo}! Você possui ${Wins} vitórias e ${Lost} derrotas, totalizando ${points} pontos! `) // Mensagem a ser exibida no retorno da função
     
         return console.log(retornar) // retorno para exibir uma mensagem referente ao resultado. 
 }
